@@ -18,3 +18,8 @@
   background-color: #410070;
   border-color: #410070;
 }
+
+.form p {
+  color: red;
+  font-weight: bold;
+}
