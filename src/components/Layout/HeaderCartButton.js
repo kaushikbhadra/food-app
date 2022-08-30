@@ -10,6 +10,7 @@ const HeaderCartButton = (props) => {
     return prevNumber + item.amount
   }, 0)
   const btnStyles = `${styles.button} ${btnIsHighlight ? styles.bump : ''}`
+  // Adding useEffect
   useEffect(() => {
     if (items.length === 0) {
       return
