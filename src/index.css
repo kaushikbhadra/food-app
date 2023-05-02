@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
+::-webkit-scrollbar {
+  width: 0.5vw;
+  height: 0.5vh;
+}
+
+::-webkit-scrollbar-track {
+  background: #3f3f3f;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#6d1da7, #570a8b);
+  border-radius: 100vw;
+}
+
 * {
   box-sizing: border-box;
 }

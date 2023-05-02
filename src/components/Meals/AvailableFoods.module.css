@@ -13,11 +13,14 @@
 
 .loading {
   text-align: center;
-  color: #fff;
+  position: relative;
+  top: 2rem;
 }
 .error {
   text-align: center;
   color: #f01111;
+  position: relative;
+  top: 2rem;
 }
 
 @keyframes meals-appear {

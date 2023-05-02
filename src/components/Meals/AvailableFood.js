@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 import Card from '../UI/Card'
+import LoadingSpinner from '../UI/LoadingSpinner'
 import MealItem from './MealItem/MealItem'
 import styles from './AvailableFoods.module.css'
 
@@ -41,7 +42,7 @@ const AvailableFoods = () => {
   if (isLoading) {
     return (
       <section className={styles.loading}>
-        <p>Loading...</p>
+        <LoadingSpinner />
       </section>
     )
   }
